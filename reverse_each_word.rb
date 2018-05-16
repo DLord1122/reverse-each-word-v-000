@@ -1,3 +1,3 @@
 def reverse_each_word(reverse)
-  reverse.reverse
-end 
+  reverse.reverse "Hello, there and who are you?"
+end
