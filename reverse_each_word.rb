@@ -1,7 +1,8 @@
-def reverse_each_word(array)
-  nuarray = []
-  array.map! do |element|
-    element.reverse
+def reverse_each_word(string)
+  words = string.split(' ')
+  result = []
+  (words.length - 1).downto(0) do |i|
+    result << words[i]
   end
-array.join(" ")
+  result.join(" ")
 end
